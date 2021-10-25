@@ -1,7 +1,6 @@
 var repoNameEl = document.querySelector("#repo-name");
 var issueContainerEl = document.querySelector("#issues-container");
 var limitWarningEl = document.querySelector("#limit-warning");
-var queryString = document.location.search;
 
 var getRepoName = function() {
   var queryString = document.location.search;
@@ -11,10 +10,9 @@ var getRepoName = function() {
     repoNameEl.textContent = repoName;
     getRepoIssues(repoName);
   } else {
-    document.location.replace("./index.html")
+    document.location.replace("./index.html");
   }
-
-}
+};
 
 var getRepoIssues = function(repo) {
   // format the github api url
@@ -32,8 +30,7 @@ var getRepoIssues = function(repo) {
           displayWarning(repo);
         }
       });
-    }
-    else {
+    } else {
       document.location.replace("./index.html");
     }
   });
@@ -57,7 +54,6 @@ var displayIssues = function(issues) {
     var titleEl = document.createElement("span");
     titleEl.textContent = issues[i].title;
     
-  
     // append to container
     issueEl.appendChild(titleEl);
 
@@ -67,8 +63,7 @@ var displayIssues = function(issues) {
     // check if issue is an actual issue or a pull request
     if (issues[i].pull_request) {
       typeEl.textContent = "(Pull request)";
-    }
-    else {
+    } else {
       typeEl.textContent = "(Issue)";
     }
 
