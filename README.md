@@ -15,9 +15,8 @@ UConn Bootcamp Module 6: Server-Side APIs<br />
 Following UConn Bootcamp's tutorial guide to learn core server-side API skills by developing an application that helps users search GitHub by username or topic, and display matching projects along with the number of open issues they have.<br />
 <br/>
 Built With:
+- HTML
 - JavaScript
-- Bootstrap
-- jQuery
 - APIs
 
 ## DESCRIPTION
