@@ -50,7 +50,7 @@ Tutorial Lessons:
 ![Alt text](./assets/images/module-6-screenshot.png "webpage screenshot")
 
 ## ACCESS
-https://paperpatch.github.io/module-6/
+https://paperpatch.github.io/module_6/
 
 Version edits and changes can be found in Github commit changes at https://github.com/paperpatch/module-6
 
