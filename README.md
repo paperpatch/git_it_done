@@ -8,12 +8,6 @@ Application to find respositories and its respective open issues based on GitHub
 * [Access](#access)
 * [Contribution](#contribution)
 
-## INTRODUCTION
-
-UConn Bootcamp Module 6: Server-Side APIs<br />
-Following UConn Bootcamp's tutorial guide to learn core server-side API skills by developing an application that helps users search GitHub by username or topic, and display matching projects along with the number of open issues they have.<br />
-<br/>
-
 ## DESCRIPTION
 
 Uses GitHub api to fetch server-side requests. Display matching projects and number of open issues the project possesses based on GitHub username. Can filter out search selection by topic (JavaScript, HTML and CSS).
